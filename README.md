@@ -2,11 +2,10 @@
 
 ### Prerequisites
 
-### Ubuntu
-- (Link)[https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04]
-
-
 ### Install java
+
+- [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04)
+- [Windows](https://java.com/en/download/help/windows_manual_download.xml)
 
 - `sudo apt-get update`
 - `sudo apt-get install default-jre`
@@ -17,11 +16,16 @@
 
 
 ### Install gradle
+
+- [Ubuntu, Windows](https://gradle.org/install/)
+
 - `$ sdk install gradle 4.9`
 - `$ export PATH=$PATH:/opt/gradle/gradle-4.9/bin`
 
 
 ### Install grails
+
+- [Ubuntu, Windows](http://grails.org/download.html)
 
 - `$ curl -s "https://get.sdkman.io" | bash`
 - `$ source "$HOME/.sdkman/bin/sdkman-init.sh"`
